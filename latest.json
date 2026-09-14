@@ -1,0 +1,10 @@
+{
+  "type": "web-patch",
+  "version": "0.31.27",
+  "build": "A1-HYB-dev03127-auto-update-bootstrap",
+  "sequence": 8,
+  "sha256": "a7c1359235b62cd939cd0dcf6596dbffd2aedcfddeaf64fbf14a33dd03fb4db7",
+  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/EMR-web-patch.zip",
+  "minNativeVersionCode": 49,
+  "published": false
+}
