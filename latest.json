@@ -1,10 +1,12 @@
 {
   "type": "web-patch",
   "version": "0.31.27",
-  "build": "A1-HYB-dev03127-auto-update-bootstrap",
-  "sequence": 8,
-  "sha256": "a7c1359235b62cd939cd0dcf6596dbffd2aedcfddeaf64fbf14a33dd03fb4db7",
-  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/EMR-web-patch.zip",
+  "build": "A1-HYB-dev03127-auto-update-probe-11-min",
+  "sequence": 11,
+  "sha256": "f9ace6e3422cafee90a49e59c5887285858e2551dc3d4953ef157307bfd0357b",
+  "base64Parts": [
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/11/patch.b64"
+  ],
   "minNativeVersionCode": 49,
-  "published": false
+  "published": true
 }
