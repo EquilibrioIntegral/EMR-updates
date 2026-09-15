@@ -4,7 +4,6 @@
   "build": "A1-HYB-dev03127-save-library-portable",
   "sequence": 42,
   "sha256": "ea401bb9433669def827623a0fe5e9b75eced86381caf417fd9ed2643f5aa447",
-  "url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-5f48-81f4-b967-c063ed0ca26c/raw?se=2026-09-15T18%3A54%3A04Z&sp=r&sv=2026-02-06&sr=b&scid=e7267d8d-92ea-56ee-85cb-53f0d9fbf470&skoid=3804227d-1b52-417d-afd9-9ffbb50fa53e&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-14T20%3A02%3A31Z&ske=2026-09-15T20%3A02%3A31Z&sks=b&skv=2026-02-06&sig=QgkvpvNC7nsNoulnIHX3ZsyAS11qxhBG4fJt%2BAf7mMk%3D",
   "minNativeVersionCode": 49,
-  "published": true
+  "published": false
 }
