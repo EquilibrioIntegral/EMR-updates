@@ -1,11 +1,11 @@
 {
   "type": "web-patch",
   "version": "0.31.27",
-  "build": "A1-HYB-dev03127-auto-update-probe-11-min",
-  "sequence": 11,
-  "sha256": "f9ace6e3422cafee90a49e59c5887285858e2551dc3d4953ef157307bfd0357b",
+  "build": "A1-HYB-dev03127-genesis-audio-recovery",
+  "sequence": 22,
+  "sha256": "83d9438ce7e2f2809732da86897848bc75667ab9e478f6c2e6c29f56392d7c2e",
   "base64Parts": [
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/11/patch.b64"
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/22/patch-min.b64"
   ],
   "minNativeVersionCode": 49,
   "published": true
