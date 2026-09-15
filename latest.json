@@ -3,7 +3,8 @@
   "version": "0.31.27",
   "build": "A1-HYB-dev03127-save-library-portable",
   "sequence": 42,
-  "sha256": "ea401bb9433669def827623a0fe5e9b75eced86381caf417fd9ed2643f5aa447",
+  "sha256": "d2334a9e6472db1ee8619b6d051cc3460e0d46ccea261dc131b33dbe4cf744b0",
+  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/42/EMR-web-patch-min.zip",
   "minNativeVersionCode": 49,
-  "published": false
+  "published": true
 }
