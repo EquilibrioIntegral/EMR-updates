@@ -1,10 +1,10 @@
 {
   "type": "web-patch",
   "version": "0.31.27",
-  "build": "A1-HYB-dev03127-save-library-portable",
-  "sequence": 42,
-  "sha256": "d2334a9e6472db1ee8619b6d051cc3460e0d46ccea261dc131b33dbe4cf744b0",
-  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/42/EMR-web-patch-min.zip",
+  "build": "A1-HYB-dev03127-profile-entry-gate",
+  "sequence": 48,
+  "sha256": "50aed64b2a0bd1b06aa2493d264579215be4f1fe7e28c3361fd6b886751b2205",
+  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/48/EMR-web-patch.zip",
   "minNativeVersionCode": 49,
   "published": true
 }
