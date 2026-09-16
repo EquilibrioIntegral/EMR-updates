@@ -1,0 +1,62 @@
+name: Publish validated EMR web patch 59
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-patch59-once.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PATCH_SOURCE: 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-1d3c-81f4-82c7-8f4eac15f5c6/raw?se=2026-09-16T13%3A40%3A35Z&sp=r&sv=2026-02-06&sr=b&scid=8d647181-310c-56f3-9191-c73dad981223&skoid=3804227d-1b52-417d-afd9-9ffbb50fa53e&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-16T08%3A52%3A30Z&ske=2026-09-17T08%3A52%3A30Z&sks=b&skv=2026-02-06&sig=neblQYYz1k8zyD7K0vi1nyPaS7x7WlcBBS%2BQPQXLYj0%3D'
+      PATCH_SHA256: 'f86f11edb7a81b18aee7cb1ee69edfa44e2f16c4e31be3c6f1abc5c57f0f111a'
+      PATCH_SIZE: '375045'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify validated CI artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/emr59
+          curl -LfsS --retry 3 --retry-delay 2 "$PATCH_SOURCE" -o /tmp/emr59/artifact.zip
+          unzip -q /tmp/emr59/artifact.zip -d /tmp/emr59/artifact
+          test -f /tmp/emr59/artifact/EMR-web-patch.zip
+          echo "$PATCH_SHA256  /tmp/emr59/artifact/EMR-web-patch.zip" | sha256sum -c -
+          test "$(stat -c%s /tmp/emr59/artifact/EMR-web-patch.zip)" = "$PATCH_SIZE"
+      - name: Stage patch 59 and atomic OTA manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p patches/59
+          cp /tmp/emr59/artifact/EMR-web-patch.zip patches/59/EMR-web-patch.zip
+          unzip -p /tmp/emr59/artifact/EMR-web-patch.zip patch-manifest.json > patches/59/patch-manifest.json
+          printf '%s  %s\n' "$PATCH_SHA256" 'EMR-web-patch.zip' > patches/59/EMR-web-patch.sha256
+          cat > latest.json <<'JSON'
+          {
+            "type": "web-patch",
+            "version": "0.31.27",
+            "build": "A1-HYB-dev03127",
+            "sequence": 59,
+            "sha256": "f86f11edb7a81b18aee7cb1ee69edfa44e2f16c4e31be3c6f1abc5c57f0f111a",
+            "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/59/EMR-web-patch.zip",
+            "minNativeVersionCode": 49,
+            "published": true
+          }
+          JSON
+      - name: Commit publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'EquilibrioIntegral OTA Publisher'
+          git config user.email 'equilibriointegral.coach@gmail.com'
+          git add latest.json patches/59/EMR-web-patch.zip patches/59/patch-manifest.json patches/59/EMR-web-patch.sha256
+          git diff --cached --exit-code && { echo 'Nothing to publish'; exit 0; } || true
+          git commit -m 'publish validated OTA web patch 59'
+          git push origin HEAD:main
