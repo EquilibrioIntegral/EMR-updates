@@ -2,9 +2,9 @@
   "type": "web-patch",
   "version": "0.31.27",
   "build": "A1-HYB-dev03127",
-  "sequence": 65,
-  "sha256": "09f66d44ae6aa87b7adc0dcfa91075bf2c2c1a2c4359583d08e963ba81e78fe1",
-  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/65/EMR-web-patch.zip",
+  "sequence": 67,
+  "sha256": "f5c7b64f36f4ae1e54dd5c8380590ddfaf0d18dd2135b23903dea1785ee34f1e",
+  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/67/EMR-web-patch.zip",
   "minNativeVersionCode": 49,
   "published": true
 }
