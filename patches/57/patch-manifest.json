@@ -1,0 +1,831 @@
+{
+  "format": "EMR-WEB-PATCH-1",
+  "version": "0.31.27",
+  "build": "A1-HYB-dev03127",
+  "sequence": 57,
+  "minNativeVersionCode": 49,
+  "createdAt": "2026-09-16T13:13:57.091Z",
+  "files": [
+    {
+      "path": "app.js",
+      "size": 17973,
+      "sha256": "7a7e74252e87149a7ebd3662ef868ad608014bb7baecb7d26cafb5f3912cea74"
+    },
+    {
+      "path": "data/boot-ci00.json",
+      "size": 1977,
+      "sha256": "f8ccb5ba69923a699d1471dd9d6c9643be4c82e78ce6727b3b42c96ced1c8a73"
+    },
+    {
+      "path": "data/boot01.json",
+      "size": 964,
+      "sha256": "2c52d0f26a88223f672c2ede49e40ce440a0c58821f40d2205afa1f6e12cdb1f"
+    },
+    {
+      "path": "data/fixtures/e2e-w01.js",
+      "size": 3230,
+      "sha256": "0c74ef04efe2290dc0c636fed6a2f9cf1b79bf40cac57db83a2158b4fa3bb40e"
+    },
+    {
+      "path": "data/gen04.json",
+      "size": 42160,
+      "sha256": "3f6ae26a68aacb154fa0201f16ca299789ce2cf6b5418185e11d960855448124"
+    },
+    {
+      "path": "data/genesis-board-a61-cell-map-r514.json",
+      "size": 5178,
+      "sha256": "fb8e1921d53f4a5b020f1f483213e9f3a1fb7fa40a358b0dc05afa80db053033"
+    },
+    {
+      "path": "data/genesis-board-a61-cell-map-r515.json",
+      "size": 4827,
+      "sha256": "e70cbdc44dd93ecf01bb2912272fd327d1c04c0585e9348fb321d9222ab98358"
+    },
+    {
+      "path": "data/genesis-capability-catalog-r511-experimental.js",
+      "size": 7816,
+      "sha256": "cee4771ab03993ddc446039b4e55c86fb3a81db7b1067762d85201b969e4380b"
+    },
+    {
+      "path": "data/genesis-capability-catalog-r511.js",
+      "size": 7611,
+      "sha256": "b788ca130d56b9a6dc08a552712bd4584fa90ca4e0778614d9d59ede881578ba"
+    },
+    {
+      "path": "data/genesis-director.js",
+      "size": 3438,
+      "sha256": "e336d333ac919d6834c1b4744f929820a7c7fdbea3885edd0fe27a5330d998c5"
+    },
+    {
+      "path": "data/genesis-r5-reference.js",
+      "size": 1143,
+      "sha256": "6b5fc25582a70357188f92cc44dd1e756c12edffe7fe5230eaa20326d4a7e6c3"
+    },
+    {
+      "path": "data/genesis-r510-physical-qa-fixture.js",
+      "size": 2711,
+      "sha256": "024a168342b9d09ca0d5074c2c12703938fb5948cec6de73f639fdf4f1cc69c1"
+    },
+    {
+      "path": "data/genesis-r511-playtest-fixture.js",
+      "size": 3781,
+      "sha256": "de2205814d2d001ee723facab31ebaeee18570ddd18c21311a0d8c4461ddae4a"
+    },
+    {
+      "path": "data/genesis-r522-e2e-fixture.js",
+      "size": 1813,
+      "sha256": "1aa2d70f027f97d0aebe78d94da73bc464091174b8c01bf7decdd819b08a185c"
+    },
+    {
+      "path": "data/genesis-voluntad-source.json",
+      "size": 3189,
+      "sha256": "b6cdc80c741c3c4cc5c481afd92e65c6a57cfdd495e59ebcdfbe6d03fe59c8b3"
+    },
+    {
+      "path": "data/intention-decks.json",
+      "size": 962,
+      "sha256": "bbcecca9de1fa9bcbf4f7f9263f31c1672f2001613b8590cf3220a441f321e51"
+    },
+    {
+      "path": "data/map-catalog.json",
+      "size": 1461,
+      "sha256": "bbb5bacd5679d30ec73ddcc9c94bbe21f312614dcf9ae6458fa4ad87b27e2dbd"
+    },
+    {
+      "path": "data/modules.json",
+      "size": 1201,
+      "sha256": "a7bf3a68587d8604ea3ff54e9a3a040d366bca2b9df0ac405d2af12f5d66c6b1"
+    },
+    {
+      "path": "data/physical-contracts.json",
+      "size": 573,
+      "sha256": "068c3f58fe945dec1cbe4112d05f33e5b7e6978a2136738b69179fc240f693f3"
+    },
+    {
+      "path": "data/primordial-causal-corpus.js",
+      "size": 3048,
+      "sha256": "a105c75ef566418142560751dcfa09ef8b6ddbd88d98abbb14ea804147b008b1"
+    },
+    {
+      "path": "data/primordial-module.js",
+      "size": 2104,
+      "sha256": "dfe08b719065e940f1fe2e348a01aa4ef54c798298ea30c62076c1fc26bc6a3c"
+    },
+    {
+      "path": "data/realizer-v3.json",
+      "size": 24683,
+      "sha256": "e248296e599950e5f42b7ecda6b864166d9dbb8c5f55ca22f6395d7a29312f6b"
+    },
+    {
+      "path": "data/rui-catalog.json",
+      "size": 1351,
+      "sha256": "31a2b5e5fa0e3882cf0e667539c8a13a484bd53243f6f82a2cf3524390ca89a9"
+    },
+    {
+      "path": "data/rui-contract.json",
+      "size": 2283,
+      "sha256": "c8d2de50f2db95444634ed2d0c491acd6d18cd10736dbf8397d028a7410cec40"
+    },
+    {
+      "path": "data/scenes.json",
+      "size": 7594,
+      "sha256": "f668d383dc48f4b3b5dbffc7ae5be5f9e22cf64135fea32251b77071ef400ae3"
+    },
+    {
+      "path": "data/world.json",
+      "size": 5058,
+      "sha256": "da90c2949e664352eec92cca08b0ae0db3f489564032cf56a8a385c712087bce"
+    },
+    {
+      "path": "engine/boot-metaphysics-r512.js",
+      "size": 8179,
+      "sha256": "16f1277bd077f9e063365a2e3ffb3980094af853b3263d7c72cfd64af9c31f08"
+    },
+    {
+      "path": "engine/boot-routing.js",
+      "size": 1840,
+      "sha256": "ee5b5b5911f3d7afcfed37fc441444fb3ef8584a49b4cbb24d750990b6af7b09"
+    },
+    {
+      "path": "engine/boot-state.js",
+      "size": 3585,
+      "sha256": "b59627beccf9c7aa4725aba0b86600b1261b1f0d63512ec70018ef40b01751ac"
+    },
+    {
+      "path": "engine/boot.js",
+      "size": 11822,
+      "sha256": "fccbadf3dd0bcda72685fb5afba192f4d280647cee8e659885417fc6a8dcedd5"
+    },
+    {
+      "path": "engine/boot01-hybrid.js",
+      "size": 6507,
+      "sha256": "7348009a2efd119ad12fe37af0f85dcede9ba50be03a169711af81526327d221"
+    },
+    {
+      "path": "engine/boot01-player-experience.js",
+      "size": 8689,
+      "sha256": "014ce81bed8783bf84752b4017b525465c58615d5701d6bb57c3c9b1c52c133d"
+    },
+    {
+      "path": "engine/boot02.js",
+      "size": 3135,
+      "sha256": "4999597e59b8367773b0d64558c32919efe1601f903d4f543415be627ad69cb4"
+    },
+    {
+      "path": "engine/boot03.js",
+      "size": 5120,
+      "sha256": "ed365455dbe059f722600473447975868fe4fcde9ee0aa8651e1736a96ce34b0"
+    },
+    {
+      "path": "engine/boot04.js",
+      "size": 3740,
+      "sha256": "fbbc89a30034cc2e084f6b8884ee1399a4800f4029d6484c5dd0b0db8ede9309"
+    },
+    {
+      "path": "engine/boot05.js",
+      "size": 4039,
+      "sha256": "e56363fd70676fc3c0f5dc8f57567a5c5e4cb13cd143af9ff9895e606e36cd28"
+    },
+    {
+      "path": "engine/boot06.js",
+      "size": 4066,
+      "sha256": "3130adb5913ec55c30b2ffa4dca10744203202d7fd64cea24da34fe2acb44fb1"
+    },
+    {
+      "path": "engine/boot07.js",
+      "size": 4802,
+      "sha256": "7d49b9f92c583a19ad6714865964d20dd9bf531f50212cd1672e88839b0b585d"
+    },
+    {
+      "path": "engine/boot08.js",
+      "size": 4371,
+      "sha256": "6ebe283a103ed97675010805ea85b1f885e939229397cf9254d7675664fb3027"
+    },
+    {
+      "path": "engine/conditions.js",
+      "size": 2118,
+      "sha256": "92b50be8d11da632044f2bc623e75716eff198eb14ea4a4cfcda9faaad5a0051"
+    },
+    {
+      "path": "engine/delta.js",
+      "size": 2241,
+      "sha256": "69e0a8b0f572721c2ddfe0320c95b1623d2d5d0ee8559165c29f6fcb4c440cb4"
+    },
+    {
+      "path": "engine/engine.js",
+      "size": 12694,
+      "sha256": "85e98efd900ae858a2a35353fd749019cc21256978d2c83098793142d6766192"
+    },
+    {
+      "path": "engine/epistemic-propagation-r512.js",
+      "size": 8201,
+      "sha256": "d2a1a92f47dd624714984e99efa8b6400961617568c95de3b54b54ed23f85def"
+    },
+    {
+      "path": "engine/generative.js",
+      "size": 27118,
+      "sha256": "73f49feb420e503436c41802754486149229231bce5baac912a7d6ca427b9895"
+    },
+    {
+      "path": "engine/genesis-action-narrative-r525.js",
+      "size": 6959,
+      "sha256": "2d8a8d3b40e325ad4269c439440e9b626d71b0081891c144cbbc6c95e8732e7f"
+    },
+    {
+      "path": "engine/genesis-agency-actions.js",
+      "size": 3153,
+      "sha256": "819d2e56bbe8babb138c6f6c60d974f69dc87c3738692ac3caacc9f3a629422b"
+    },
+    {
+      "path": "engine/genesis-ai-identity-r524.js",
+      "size": 7188,
+      "sha256": "5119e7f5aad18166ca30e7e7fc94f5cdd7806863be0f44a7ebd6e8eaa90f8163"
+    },
+    {
+      "path": "engine/genesis-autonomous-agencies-r59.js",
+      "size": 5327,
+      "sha256": "4f2f76eb1b81e9e402af5306c0c257107835e1be363b941bc16d8605ab1e7d2b"
+    },
+    {
+      "path": "engine/genesis-board-display-r515.js",
+      "size": 1923,
+      "sha256": "1825c76b858f05f97b61a5b2803b247f030ed99434c237c571d24e0d138fc512"
+    },
+    {
+      "path": "engine/genesis-board-projection-r514.js",
+      "size": 1352,
+      "sha256": "5944f99beed671d851581356d4012896c3316c3446f12e7be6467cc9503c320a"
+    },
+    {
+      "path": "engine/genesis-board-projection-r515.js",
+      "size": 1457,
+      "sha256": "462a23bcff1955793e8d697b61f69a1214b95ecc3e7aa248ecfe4ae653c1bc81"
+    },
+    {
+      "path": "engine/genesis-board-r5.js",
+      "size": 3887,
+      "sha256": "e8ca6832cbedac788516b13ee572b02ddefad6ca7968fe2d8a87657ef9236671"
+    },
+    {
+      "path": "engine/genesis-boot01-adapter.js",
+      "size": 4099,
+      "sha256": "41758e3b3f60308d925f8c9a78b666c42aa71074c700d19c254c54330eb61200"
+    },
+    {
+      "path": "engine/genesis-capabilities-r511.js",
+      "size": 2519,
+      "sha256": "f7093767b32b20ed3a0c5cf21243d6980d577353a993ab2af228fedb2a2d816d"
+    },
+    {
+      "path": "engine/genesis-capability-live-r511.js",
+      "size": 25330,
+      "sha256": "5d384ded461ceb42bc16d045da4279c81c17a85a201eade41482ba2320593cc9"
+    },
+    {
+      "path": "engine/genesis-causal-forecast-r520.js",
+      "size": 4098,
+      "sha256": "2740280fcff6d7e7faf97d044f5a7bad45b2a35d6ea5a476fd18e4023188e7d5"
+    },
+    {
+      "path": "engine/genesis-ci03-route.js",
+      "size": 2280,
+      "sha256": "d65c0d30400038ea3e247c115ac8c92fcf2f1b806d1ec0c0557f9c3c164b1165"
+    },
+    {
+      "path": "engine/genesis-contextual-intentions.js",
+      "size": 4353,
+      "sha256": "8a4bd8c20d3579a540dd3ca4771459dbc32f37de48639667e16429a41468d3cb"
+    },
+    {
+      "path": "engine/genesis-cosmic-narrator-r529.js",
+      "size": 5928,
+      "sha256": "60715b1df9617e77acb54499e67bb57f5d59f494de8cd136e952b585c868ffd5"
+    },
+    {
+      "path": "engine/genesis-cosmogony-r5.js",
+      "size": 18881,
+      "sha256": "f3941c76d0a0e4ab01b1e9a686dad18f7698ed98c5fc397cecb135508a2e5b52"
+    },
+    {
+      "path": "engine/genesis-director.js",
+      "size": 3859,
+      "sha256": "5870cdd089bd0320258273a6d77da399302600811b8571682f11afde0103b4df"
+    },
+    {
+      "path": "engine/genesis-entity-config-r512.js",
+      "size": 13003,
+      "sha256": "60845e192831b0b8d8c277c82889c37ecb8252bb3b360bbc96b9d440d1b882f3"
+    },
+    {
+      "path": "engine/genesis-entry-r53.js",
+      "size": 7204,
+      "sha256": "714c168468ed63f490e3677a8c7b0b2fec6d44f2dae30c6a3349da95e5e0d2f3"
+    },
+    {
+      "path": "engine/genesis-entry-to-live-r5.js",
+      "size": 1140,
+      "sha256": "2785c3a7a4e6d7c776b55f5fff8e29a7d94a2a865ff213b661d1028867fbdf12"
+    },
+    {
+      "path": "engine/genesis-guionista-r512.js",
+      "size": 3975,
+      "sha256": "5616874eebdd02938c62c5df62912af4fe8d255acf5fdd255a83cced79c8759d"
+    },
+    {
+      "path": "engine/genesis-guionista.js",
+      "size": 19723,
+      "sha256": "6f5300c5e921774bb91d06114a5a748d8b43b5cd10d7c020815057760955abe7"
+    },
+    {
+      "path": "engine/genesis-intention-memory-r525.js",
+      "size": 7928,
+      "sha256": "1e444c5cddfff984c66cbe7e4e5b0b42ce5b0413b8fe536f2824d9d5e334d2d4"
+    },
+    {
+      "path": "engine/genesis-invisible-world-r512.js",
+      "size": 13422,
+      "sha256": "98f46751d4139ac937ee939e2d4471b83c12084c28f3921075888c9a689a6659"
+    },
+    {
+      "path": "engine/genesis-joint-r5-experimental.js",
+      "size": 1919,
+      "sha256": "393a5dcdaa16970c631006e29e8d29af4f3bc397de02ede328798e25cdc84e64"
+    },
+    {
+      "path": "engine/genesis-legacy-r5-adapter.js",
+      "size": 3428,
+      "sha256": "fec8e74e4a2bcce4e5a2a1b5f03ad4d123de96cfee41968bb780f306c3d07a36"
+    },
+    {
+      "path": "engine/genesis-legacy-r5.js",
+      "size": 8756,
+      "sha256": "7a3259f19825ce50d7e9ff7f148e544a71037f51f90bb91577a48403eb54d05d"
+    },
+    {
+      "path": "engine/genesis-live-handoff-r5.js",
+      "size": 2843,
+      "sha256": "78a47e37310967531d34cdd0f34a10e318f5dadde43f1d4e1b922e4514b60766"
+    },
+    {
+      "path": "engine/genesis-live-r5.js",
+      "size": 1964,
+      "sha256": "2ccc644d00b7060cf7062d24b6a517ab979f7e577d9541e4a6d75d112dd9c466"
+    },
+    {
+      "path": "engine/genesis-live-r510-legacy.js",
+      "size": 36483,
+      "sha256": "67bace937beb2fcb4544d79207be108e0e24cec0326941fef7aa4ab84b409c70"
+    },
+    {
+      "path": "engine/genesis-live-r511-layer.js",
+      "size": 12874,
+      "sha256": "a2790751dac9ec6ba6e525d93b64de9c5124e37df3770f4df1602846965b8c2b"
+    },
+    {
+      "path": "engine/genesis-live-r512-layer.js",
+      "size": 6668,
+      "sha256": "116d1f20a3460559f00f44529dc1983363e1023bf9264b74cfce24591aceefbf"
+    },
+    {
+      "path": "engine/genesis-live-r516-layer.js",
+      "size": 8419,
+      "sha256": "b95804734c167da9e3dcaba18dbb920a9426ef42b11b992464f99fc9a38ad6d2"
+    },
+    {
+      "path": "engine/genesis-live-r517-layer.js",
+      "size": 4181,
+      "sha256": "663e56ef24427bdd81812a5352f1ae54860cc0a76b26d7e746cd325396734572"
+    },
+    {
+      "path": "engine/genesis-material-r5.js",
+      "size": 3513,
+      "sha256": "50ca0857eefeb31ad5fa420ab7b607aa8e43ca6d1453996c6ae3021dede4b626"
+    },
+    {
+      "path": "engine/genesis-materialization-r530.js",
+      "size": 3694,
+      "sha256": "72f2b5012957b0daa9517345da7aa9faa8dd819aca49d5ae12e30811dcc5213c"
+    },
+    {
+      "path": "engine/genesis-narrative-r524.js",
+      "size": 1101,
+      "sha256": "f5d647ec9f084dd8b8008b0001b388ac9f455d7a086cf1cd205de4513daaa185"
+    },
+    {
+      "path": "engine/genesis-narrator.js",
+      "size": 2339,
+      "sha256": "58a367a62b13cbfd2ebe3ec2e16333508fd03bfc4b71add505fb07f65c7a0b87"
+    },
+    {
+      "path": "engine/genesis-ontology-r5.js",
+      "size": 3926,
+      "sha256": "cabc5ef51cee6e7b169be6e783deb9cfdc89d9cbf0eeed8b40d110341410a962"
+    },
+    {
+      "path": "engine/genesis-ontology-seeds-r527.js",
+      "size": 7744,
+      "sha256": "6693394889b778c5c1b623ecdb8fc044fadd0dd1b9886cd2d386f17a687fbf35"
+    },
+    {
+      "path": "engine/genesis-persistence.js",
+      "size": 1749,
+      "sha256": "7ad21c9a93250d5c06224d91b261eabdcb38581e72e11e0044aa0feef5176435"
+    },
+    {
+      "path": "engine/genesis-physical-bridge.js",
+      "size": 5832,
+      "sha256": "ab69f0f2f4c7da1b157ca3a2accd2435d486070c2ea948080374e56e796ed9d6"
+    },
+    {
+      "path": "engine/genesis-playable-formation.js",
+      "size": 5120,
+      "sha256": "9a9afa89d9ef4d4362c3c4609c04be30c345e585b56bac475b9578b5f410e514"
+    },
+    {
+      "path": "engine/genesis-player-experience.js",
+      "size": 6329,
+      "sha256": "cecde550ab0b0930d99012eb0800d4b5f7a1fd0159a63aef0dd902002ee4d5f9"
+    },
+    {
+      "path": "engine/genesis-player-facing-r513.js",
+      "size": 12025,
+      "sha256": "2d9839068fc288baa8b3e51b9b46bd570af7a8183567de687635f3be08c3178e"
+    },
+    {
+      "path": "engine/genesis-player-facing-r516.js",
+      "size": 13913,
+      "sha256": "1202ca88829321bb85cd8547073dc75517345be4ab3ce85ffb3a5f144279879c"
+    },
+    {
+      "path": "engine/genesis-player-facing-r520.js",
+      "size": 10569,
+      "sha256": "7c4b8054d877cc219ef9e9b04e3f233f0f16ac34879d18529944bc0d58d410b2"
+    },
+    {
+      "path": "engine/genesis-progression-r517.js",
+      "size": 3675,
+      "sha256": "894b680368f24e9bb3ad30fc3ee9c0d2671a52e7acc1932c0a553b9e9e4f5c1f"
+    },
+    {
+      "path": "engine/genesis-r523-qa-harness.js",
+      "size": 8782,
+      "sha256": "2c3117c34e626d2e6f2d8582bb0c0abe39df02acf2918044c42140aabddba211"
+    },
+    {
+      "path": "engine/genesis-route-mode.js",
+      "size": 1004,
+      "sha256": "f135cd467626e340a8d9a5b0d5cc09bc548e2ee94225823ce15361751f77309f"
+    },
+    {
+      "path": "engine/genesis-runtime-r5.js",
+      "size": 15656,
+      "sha256": "90ae1b8a21e17e1553e9c848ce0e31a033b6bd89b1160623e7fb76c279c18755"
+    },
+    {
+      "path": "engine/genesis-shared-guionista-r526.js",
+      "size": 7564,
+      "sha256": "7b9e184545e4b646a4f5b3481cec99a52153fe5fc3bf952c3248c0424a445546"
+    },
+    {
+      "path": "engine/genesis-signature-narrative.js",
+      "size": 12807,
+      "sha256": "81d0d0f99acd7b072b4f3a7f94c7e7a3ed0c5d5ca6636bf0bb22ed673591e1ed"
+    },
+    {
+      "path": "engine/genesis-signature-r53.js",
+      "size": 7450,
+      "sha256": "010009769f05da8391a85e1dacc20388ea71494ea47c202436277303a7bf759d"
+    },
+    {
+      "path": "engine/genesis-sim-r5.js",
+      "size": 6685,
+      "sha256": "445b60edef8577c458faf0cb4a7dfcfd36aa2b273aa8466f7b39772fc30f9e57"
+    },
+    {
+      "path": "engine/genesis-spatial-policy-experimental.js",
+      "size": 5552,
+      "sha256": "edb602450fe7cd69dbaabbe2b63e371cc04de33b896f1eeba06c10ee17e9e5a7"
+    },
+    {
+      "path": "engine/genesis-spatial-policy-r510.js",
+      "size": 3948,
+      "sha256": "16f92b2654385991b3a901ffa1c4cf40647f4bfec5569d73175c54643b99fecd"
+    },
+    {
+      "path": "engine/genesis-stellar-pacing-r528.js",
+      "size": 2131,
+      "sha256": "7b5c5b8d044e008e52bc8d8efc16a82497467804f4c1067befaf51bc103cfeac"
+    },
+    {
+      "path": "engine/genesis-story.js",
+      "size": 9665,
+      "sha256": "32fe075ddcc8e7a1c3a5a0ecc004624e7ea9bd7c4ce55690de7648cce5f851c4"
+    },
+    {
+      "path": "engine/genesis-table-closure.js",
+      "size": 1642,
+      "sha256": "82d2eb7dfab78e2cc6f9f7d4f3d114c7d13132b6690ae4a13dd91a9f490269d7"
+    },
+    {
+      "path": "engine/genesis-table-guionista.js",
+      "size": 1870,
+      "sha256": "433d159c94109efafdab5669135aba97a679e939731677671e98a2ef4d65561c"
+    },
+    {
+      "path": "engine/genesis-table.js",
+      "size": 16417,
+      "sha256": "1f4cb4538daf042c52ed3be51e6f071372de187590c931f9b2a758a1d4ebe885"
+    },
+    {
+      "path": "engine/genesis-volition-relations-r57.js",
+      "size": 5364,
+      "sha256": "eb2b72a229ba58950f189ce5c94de29db36d2df54dcbd0259792826efbf1a684"
+    },
+    {
+      "path": "engine/genesis-will-mystic-r56.js",
+      "size": 4577,
+      "sha256": "7b28141e6f015677e2dbbc38fa418fafcee6ba7b5a141348566fabd3d1fdc1cc"
+    },
+    {
+      "path": "engine/genesis-worldgen-contract.js",
+      "size": 6158,
+      "sha256": "ff9e85eaf7c6ae1ccdf24b664c5db9fe9caedac35f4e0eaf692707aa552b560f"
+    },
+    {
+      "path": "engine/hybrid-loop.js",
+      "size": 6635,
+      "sha256": "60be03627229f44b4f4ba33a43ef31488d4eebaba7ad3b09a3ac03dd32476f0e"
+    },
+    {
+      "path": "engine/intention-decks.js",
+      "size": 1478,
+      "sha256": "a67a7eac107d79490bdfcbbeefb4cdc06010ce73ed87186501a434d1f68c55e8"
+    },
+    {
+      "path": "engine/load-data.js",
+      "size": 989,
+      "sha256": "a9141a31fd6b5868914c10aa36d12995e45942a5d8b62319b1420337e382b767"
+    },
+    {
+      "path": "engine/map.js",
+      "size": 4268,
+      "sha256": "b3da1e83d9ff120753912abeed973168b3877db26c27801f2f6b2589e697e8d3"
+    },
+    {
+      "path": "engine/player-names.js",
+      "size": 862,
+      "sha256": "084c0529fb9474e1763ebbb323cad744ddc9cffa0e5384ad93d9e3e448f214a0"
+    },
+    {
+      "path": "engine/preshow.js",
+      "size": 4683,
+      "sha256": "d7c92f288170c0ccb4ca48e46ecb4ca3e67118ec6d39406da88770fb1c7c7609"
+    },
+    {
+      "path": "engine/primordial-agencies.js",
+      "size": 5696,
+      "sha256": "32598820b8ed2d934a8c160504631ee911e4bda8d127a74783c3bd8ed0f2771d"
+    },
+    {
+      "path": "engine/primordial-causal-resolver.js",
+      "size": 4188,
+      "sha256": "4d67a1b74ed3608551df30c389e24de38f4d4aa9859335ac262f8d51bafe9cff"
+    },
+    {
+      "path": "engine/primordial-causal.js",
+      "size": 9862,
+      "sha256": "571f96470099fee506b1633b771bd9d3dd7bd686405a3c7ec62a448be0fb90a7"
+    },
+    {
+      "path": "engine/primordial-convergence.js",
+      "size": 3594,
+      "sha256": "78c66293e8558cf9d645985824e1171e2654febab9d6d35fcc1317abe3da64a5"
+    },
+    {
+      "path": "engine/primordial-e2e.js",
+      "size": 3216,
+      "sha256": "8ba26c90beacb521e57f5ac7bcef58168f505288a6b156a9a87d0ad3d39ffb37"
+    },
+    {
+      "path": "engine/primordial-gravity.js",
+      "size": 7853,
+      "sha256": "c1b5da5af80fb66c2e4701ca86339ab1ddf7b77e3d98c4ec967f9be17215836c"
+    },
+    {
+      "path": "engine/primordial-grid.js",
+      "size": 6736,
+      "sha256": "37d5c1500666482e055b6abd7afb2dec0d9c0101aa2bcec25689d6275eac11da"
+    },
+    {
+      "path": "engine/primordial-legacy-v2.js",
+      "size": 4108,
+      "sha256": "5a6d7e24227f5ab662aba5bb1933493059b79fe2afe3dae76accf12d5f735e0e"
+    },
+    {
+      "path": "engine/primordial-legacy.js",
+      "size": 1879,
+      "sha256": "d94a6252534c169e9572da5323d71c4258d1105ad74457275649990b2d217bff"
+    },
+    {
+      "path": "engine/primordial-loop.js",
+      "size": 4398,
+      "sha256": "d31f44075ad2382c836f5ec2869d7384b4cca9f61a6bac715eabd9d56dd88b93"
+    },
+    {
+      "path": "engine/primordial-matter.js",
+      "size": 3268,
+      "sha256": "ad65b903c5340d4099266a576860999a072932ff5704d7bdaec6aa9bc3d78f46"
+    },
+    {
+      "path": "engine/primordial-planet.js",
+      "size": 2939,
+      "sha256": "da9f6c9f7bc4398a115f8665849e1056c30a10cdfdfd4bcccf78dba84c53547e"
+    },
+    {
+      "path": "engine/primordial-resolver.js",
+      "size": 2199,
+      "sha256": "487803a5db25b0d493ea30ac46e95f6742032da8c156300710e3e9b8ff5a8aa3"
+    },
+    {
+      "path": "engine/primordial-signature.js",
+      "size": 8867,
+      "sha256": "d83492975b39259a33fbdc81d41e12d6a430cac22045872e53d4e3e2a0fe75b4"
+    },
+    {
+      "path": "engine/primordial-turns.js",
+      "size": 6998,
+      "sha256": "b9494e0de09b057e2c455394998c29ed292b65638007d3915200c56abafe7644"
+    },
+    {
+      "path": "engine/realizer.js",
+      "size": 2648,
+      "sha256": "edbcf360ea23644172a0ea45d631a0e6d451b27bbaa4f757e567bd87602173e0"
+    },
+    {
+      "path": "engine/rng.js",
+      "size": 965,
+      "sha256": "bfd66588d6fb88480cfbb629ff7485713aaad43c29d68a6a80976aeedfde987f"
+    },
+    {
+      "path": "engine/rui.js",
+      "size": 3110,
+      "sha256": "194f6f5a9eef0c75b526b1fbf19126831e26796781c3ab402ba321bf7e9b3efa"
+    },
+    {
+      "path": "engine/save-contract-r531.js",
+      "size": 2935,
+      "sha256": "4b05a3ba441346aeced4fe7783bbf72d2f49c57a7e4a670071ce1e6b1b0eeb1c"
+    },
+    {
+      "path": "engine/save-library.js",
+      "size": 14272,
+      "sha256": "7e66d31641e6a7ef11e6ba8deb41ace628f86842fb18f2ef3a741aa11c1ae8aa"
+    },
+    {
+      "path": "engine/selector.js",
+      "size": 3233,
+      "sha256": "ecbd640bd4b9fa1bac3aed35efd8d6b2eca13bbb6284c58a6e9b5126ef547c5d"
+    },
+    {
+      "path": "engine/shared-secret-decision.js",
+      "size": 7165,
+      "sha256": "5e5de7516a887ebeafcb30f5ba843752b8a6abbed380d49a4cab11930eac9560"
+    },
+    {
+      "path": "engine/state.js",
+      "size": 3062,
+      "sha256": "f2b3b7ba833ecccbd1d3b5c9311a57ea70f0efff4bf4498857b2b568f9e29ec7"
+    },
+    {
+      "path": "engine/update.js",
+      "size": 2187,
+      "sha256": "9689234fd9d4954c1a6f84f9e225d158d2657d99d0ce399b2c7c1beb295611c7"
+    },
+    {
+      "path": "genesis-audio.js",
+      "size": 4546,
+      "sha256": "d879c03a53686fdea70ff4c19789cc02da5db2a5af0608da83e2d2d930f81b13"
+    },
+    {
+      "path": "index.html",
+      "size": 7312,
+      "sha256": "1f73d573e8f3b6bbaa2e8abc039235d38a1639f538b61eb9a953bda77b6bb4b8"
+    },
+    {
+      "path": "intentions-ui.js",
+      "size": 3689,
+      "sha256": "38ec39ce47b72460278b06a38516503d71db6fde23d771699c9c038401ed8e04"
+    },
+    {
+      "path": "intentions.css",
+      "size": 1221,
+      "sha256": "8f78d0294320af87078a0852f88a7355706aea43d3cc0067d7a75b807f800b9c"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "size": 538,
+      "sha256": "e89d70e84d98dec6d6d606e2c1596e9d879a7741bc0334fa506ec62b72825811"
+    },
+    {
+      "path": "menu-audio.js",
+      "size": 4395,
+      "sha256": "a5d16af6c77e63697f7e95b8f0cc2afa50fff427d0ecceacdd98216d26139fdd"
+    },
+    {
+      "path": "menu-backgrounds.css",
+      "size": 2777,
+      "sha256": "33c4ac6d5e705e9cbf0ae2916eadda6f45a5f340540230b4d7e49aa39e794483"
+    },
+    {
+      "path": "menu-backgrounds.js",
+      "size": 5482,
+      "sha256": "577f4497081e52830214ad047955f8695c47d9eea97e0aa9c2e98246a0470f04"
+    },
+    {
+      "path": "narrator-service.js",
+      "size": 7674,
+      "sha256": "a6ccb916215fabe12bff319e641e36691b6757449e713c3b6b77e3698414fd14"
+    },
+    {
+      "path": "narrator-text.js",
+      "size": 1896,
+      "sha256": "75823c27c4309d672b33050d0b0c9114534d342eb2b09ac25017ef3a6919c472"
+    },
+    {
+      "path": "narrator-ui.js",
+      "size": 7098,
+      "sha256": "b588b42f2d1421ccb84215aee8c2edfba55fabff311ec3ea6ca239ebd7ee81f0"
+    },
+    {
+      "path": "pre-genesis.css",
+      "size": 1862,
+      "sha256": "d74ade54f43c7bd9cb7a7c0eb62ff6deeec0e2ec1d514dd099e3f9eefc9c83f0"
+    },
+    {
+      "path": "pre-genesis.js",
+      "size": 2221,
+      "sha256": "8a90176290f960501ae91498ad391b1c83c284f210f934e697f5cfab5f353107"
+    },
+    {
+      "path": "qa-r522-bootstrap.js",
+      "size": 9934,
+      "sha256": "6df24c8173ad5513ef113bc66a706822a094dc43fed3c5d6766b3f25c2c47aa3"
+    },
+    {
+      "path": "save-library-ui.js",
+      "size": 12688,
+      "sha256": "02abc0270b397a87ef767ad8a651fc2165fe7849d60d73336744cc7d2a2fab41"
+    },
+    {
+      "path": "styles.css",
+      "size": 9602,
+      "sha256": "a2c98450c78f78d8f91b2d4f8263aded1d61ff2a658c3db0466a6e4d47d5a212"
+    },
+    {
+      "path": "sw.js",
+      "size": 6556,
+      "sha256": "43b8000f7da977ae3ad8c36b791fe47d7bc05373ca6afe1769c2a6c8c502a79d"
+    },
+    {
+      "path": "ui/boot01-ui.js",
+      "size": 6784,
+      "sha256": "f1965cc27f2ce2a6859b70afe74cbcbe35382519cdf80f3ca44b3a58d38d31c9"
+    },
+    {
+      "path": "ui/genesis-entry-ui-r53.js",
+      "size": 6969,
+      "sha256": "cd9338cbbd3d1fc415d3aade67ca63c7e8109ba354d2e86f87d4ecc46a16eeb1"
+    },
+    {
+      "path": "ui/genesis-ui-legacy.js",
+      "size": 4970,
+      "sha256": "a47c73b777b557874de1f24a31e56129d9b9d5baa45701fa29087676f3114537"
+    },
+    {
+      "path": "ui/genesis-ui-r5.js",
+      "size": 843,
+      "sha256": "81c4ec351b7e2b457885a8a57389ccf16ff1e58cac9b9b66deb0000eae95896f"
+    },
+    {
+      "path": "ui/genesis-ui-r524-compat.js",
+      "size": 216,
+      "sha256": "0152899eb028451a449fb3bb0ba2828333b1118ccab357b5b09308d7092aa7f9"
+    },
+    {
+      "path": "ui/genesis-ui-r524.js",
+      "size": 21896,
+      "sha256": "0570d19f6244dbc912e6e53bd35ded5d4ec55188ee6547321c007b70e7d7208c"
+    },
+    {
+      "path": "ui/genesis-ui.js",
+      "size": 11240,
+      "sha256": "89615395b92341aadbaae1fbe8a1f3f086d1ca095501d7ae75400afb3a7635b6"
+    },
+    {
+      "path": "updater-ui.js",
+      "size": 13783,
+      "sha256": "a613e411fd41986ed5226caba1b0451e489038b28784d23d46419840a7f379c8"
+    }
+  ],
+  "delete": []
+}

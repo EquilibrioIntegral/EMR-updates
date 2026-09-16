@@ -1,10 +1,10 @@
 {
   "type": "web-patch",
   "version": "0.31.27",
-  "build": "A1-HYB-dev03127-profile-gate-racefix",
-  "sequence": 52,
-  "sha256": "a2ee6bbd7d6fc3bc2b0c50ec116532737300fcc1aebc645e14efa9d3a961dea7",
-  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/52/EMR-web-patch.zip",
+  "build": "A1-HYB-dev03127",
+  "sequence": 57,
+  "sha256": "db5cf75a3d82222660a538326bb7186dc09c0e01fb00b92adf5bba45800bf973",
+  "url": "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/57/EMR-web-patch.zip",
   "minNativeVersionCode": 49,
   "published": true
 }
