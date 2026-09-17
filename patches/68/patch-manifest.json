@@ -1,0 +1,18 @@
+{
+  "format": "EMR-WEB-PATCH-1",
+  "version": "0.31.27",
+  "build": "A1-HYB-dev03127-QA-BRIDGE68",
+  "sequence": 68,
+  "minNativeVersionCode": 49,
+  "createdAt": "2026-09-17T18:45:51.731843Z",
+  "classification": "PRIVATE_IMPORT_BRIDGE_FOR_SEQUENCE90",
+  "humanCandidateRequested": false,
+  "files": [
+    {
+      "path": "qa-r522-bootstrap.js",
+      "size": 650,
+      "sha256": "c1245f30206817d4c0393e177cbb291a8d5ab9ab63f390931ee1b78fce8d6ec6"
+    }
+  ],
+  "delete": []
+}
