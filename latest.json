@@ -1,13 +1,13 @@
 {
   "type": "web-patch",
   "version": "0.31.27",
-  "build": "A1-HYB-dev03127-WILL-UXFIX",
-  "sequence": 107,
-  "sha256": "e6302e164433b2d5404f28a4e3ba2a9c382e504b16201195adbf535255e22054",
+  "build": "A1-HYB-dev03127-ART-AUTOHEIGHT",
+  "sequence": 110,
+  "sha256": "30d161e459a82187471ae612dc91cf50683d5c724992b25fa41f88afcbf3596d",
   "base64Parts": [
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/107/part-00.b64",
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/107/part-01.b64",
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/107/part-02.b64"
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/110/part-00.b64",
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/110/part-01.b64",
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/110/part-02.b64"
   ],
   "minNativeVersionCode": 49,
   "published": true
