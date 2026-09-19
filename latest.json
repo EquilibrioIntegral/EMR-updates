@@ -1,14 +1,14 @@
 {
   "type": "web-patch",
   "version": "0.31.27",
-  "build": "A1-HYB-dev03127-PRIMORDIAL-IMAGEBG",
-  "sequence": 151,
-  "sha256": "bf60184c35195d2f86db13ef93e193b27b9c728487502e41807196813eed512a",
+  "build": "A1-HYB-dev03127-PRIMORDIAL-DIRECTWEBP",
+  "sequence": 153,
+  "sha256": "4886479578605c93c6c41f6c2c620e9e9dfbdb52146e67d6a95a3e0ee2c16960",
   "base64Parts": [
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/151/part-00.b64",
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/151/part-01.b64",
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/151/part-02.b64",
-    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/151/part-03.b64"
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/153/part-00.b64",
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/153/part-01.b64",
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/153/part-02.b64",
+    "https://raw.githubusercontent.com/EquilibrioIntegral/EMR-updates/main/patches/153/part-03.b64"
   ],
   "minNativeVersionCode": 49,
   "published": true
